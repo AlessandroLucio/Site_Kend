@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>Site Kend</title>
+</head>
+
+<body class="bg-white font-kend m-0 p-0 box-border">
+  <nav class="w-screen md:flex-col justify-center items-center
+    bg-white shadow-md ">
+
+    <div class="w-screen hidden
+        md:flex justify-center items-center
+        bg-dark-blue">
+
+      <a href="#" target="_blank" class="p-4">
+        <img class="w-5" src="/src/images/instagran-w.png" alt="Logo Instagran">
+      </a>
+      <a href="#" target="_blank" class="p-4">
+        <img class="w-5" src="/src/images/linkedin-w.png" alt="Logo Instagran">
+      </a>
+      <a href="#" target="_blank" class="p-2 pb-1">
+        <img class="w-5" src="/src/images/mail.png" alt="Logo Instagran">
+      </a>
+      <p class="text-white text-sm font-bold pr-5">
+        vendas@kendpolimeros.com.br
+      </p>
+      <p class="text-white text-lg font-bold">
+        |
+      </p>
+      <a href="#" target="_blank" class="pl-5">
+        <img class="w-5" src="/src/images/whats-w.png" alt="Logo Instagran">
+      </a>
+      <p class="text-white font-bold p-1 text-sm">
+        (19) 99774-6240
+      </p>
+    </div>
+
+    <div class="w-screen p-5 px-12 flex items-center justify-between md:h-24 md:px-16">
+      <div class="max-w-28 min-w-20 md:mr-8 ">
+        <a href="#">
+          <img src="./src/images/logo_kend_site_1.png" target="_blank" alt="Logo Kend">
+        </a>
+      </div>
+
+      <ul class="hiden md:flex space-x-8 xl:space-x-12 hidden md:text-xs lg:text-base">
+        <li><a href="#" class="text-gray-600 font-bold hover:text-dark-blue">INÍCIO</a></li>
+        <li><a href="#" class="text-gray-600 font-bold hover:text-dark-blue">EMPRESA</a></li>
+        <li><a href="#" class="text-gray-600 font-bold hover:text-dark-blue">PRODUTOS</a></li>
+        <li><a href="#" class="text-gray-600 font-bold hover:text-dark-blue">PARQUE FABRIL</a></li>
+        <li><a href="#" class="text-gray-600 font-bold hover:text-dark-blue">CONTATO</a></li>
+      </ul>
+      <button id="menuButton" class="md:hidden font-bold text-3xl text-dark-blue">
+        ☰
+      </button>
+      <nav id="mobileMenu" class="md:hidden absolute top-0 right-0 bg-white shadow-lg z-10">
+        <ul class="py-4">
+          <li><a href="#" class="block px-4 py-2 text-gray-600 font-bold hover:text-dark-blue">Sobre Nós</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-600 font-bold hover:text-dark-blue">Produtos</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-600 font-bold hover:text-dark-blue">Parque Fabril</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-600 font-bold hover:text-dark-blue">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+
+  <section class="relative h-60 md:h-80 lg:h-96 xl:h-96">
+    <div class="bg-[url(/src/images/Foto_aerea_ext_alta.jpg)]
+    w-full h-full bg-cover bg-no-repeat">
+
+      <div class="absolute inset-0 hidden h-full md:flex items-center md:bg-black/50">
+        
+        <div class="w-1/2 pl-16">
+          <h1 class="text-white font-bold text-3xl pb-6
+          md:text-[1.4rem]
+          lg:text-3xl
+          xl:text-4xl
+          ">
+            Soluções personalizadas em compostos de polipropileno e aditivos de transformação.
+          </h1>
+          <p class="text-white 
+          md:text-xs
+          lg:text-sm
+          xl:text-base">
+            A Kend Polímeros Avançados é sua parceira estratégica em compostos de polipropileno e aditivos de
+            transformação, oferecendo soluções personalizadas a partir de resinas virgens ou recicladas. Dê um passo
+            à frente e entre em contato.
+          </p>
+        </div>
+
+        <div class="w-1/2 px-12 md:px-6 lg:px-16">
+          <button class="text-white py-2 border-2 border-white rounded-full
+          md:px-24 md:text-xs
+          lg:text-sm lg:px-32 
+          xl:text-base">
+            Entre em contao
+          </button>
+        </div>
+
+      </div>
+  </section>
+
+  <section class="relative md:hidden p-12 h-2/4 md:h-72 xl:h-96">
+    <div class="">
+      <h1 class="text-dark-blue font-bold text-3xl pb-2">
+        Soluções personalizadas em compostos de polipropileno e aditivos de transformação.
+      </h1>
+      <p class="text-dark-blue pb-6">
+        A Kend Polímeros Avançados é sua parceira estratégica em compostos de polipropileno e aditivos de
+        transformação, oferecendo soluções personalizadas a partir de resinas virgens ou recicladas. Dê um passo
+        à frente e entre em contato.
+      </p>
+      <button class="text-dark-blue px-28 py-2 border-2 border-dark-blue rounded-full">
+        Entre em contao
+      </button>
+    </div>
+  </section>
+
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
